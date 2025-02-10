@@ -1,4 +1,17 @@
-﻿This is a README for the font compression reference code. There are several
+﻿# Note
+
+```
+git submodule init
+git submodule update
+make
+```
+
+Use make instead of CMake because make uses the brotli version packed in the
+brotli/ directory. CMake uses the system brotli.
+
+# Original Readme
+
+This is a README for the font compression reference code. There are several
 compression related modules in this repository.
 
 brotli/ contains reference code for the Brotli byte-level compression
